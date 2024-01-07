@@ -159,6 +159,7 @@
 
  :root {
     --color-white: #FFFFFF;
+    --color-black: #000000;
     --color-grey: #959595;
     --color-grey-dark: #313131;
     --color-arctic-white: #FBFBFB;
@@ -310,7 +311,7 @@
  }
 
  .hero {
-  background-color: var(--color-silver-sand);
+  background: url('/images/living-room-interior.jpg') center/cover no-repeat;
   padding-top: 110px;
   padding-bottom: 210px;
  }
@@ -326,6 +327,37 @@
  .hero-body-title,
  .hero-body-text {
   max-width: 570px;
+ }
+
+ .features-inner {
+  background-color: var(--color-white);
+  padding-block: 65px;
+  padding-inline: 80px;
+  max-width: 1225px;
+  margin-inline: auto;
+  margin-top: -90px;
+ }
+
+ .features-list {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 60px;
+ }
+
+ .features-item {
+  display: flex;
+  row-gap: 20px;
+  flex-direction: column;
+  align-items: center;
+ }
+
+ .features-item-title {
+  font-size: 20px;
+  color: var(--color-black);
+ }
+
+ .features-item-sescription {
+  text-align: center;
  }
 
 
