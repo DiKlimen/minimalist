@@ -688,14 +688,31 @@
   gap: 35px;
 }
 
+.collections-list-item {
+  position: relative;
+}
+
+.collections-list-item a {
+  text-decoration: none;
+}
+
 .collections-list-item-image {
   margin-bottom: 38px;
   width: 100%;
   height: auto;
 }
+
 .collections-list-item-title {
   margin-bottom: 15px;
 }
+
+.collections-list-item-title::before {
+  position: absolute;
+  content: '';
+  inset: 0;
+}
+
+
 
 /* Footer */
 
