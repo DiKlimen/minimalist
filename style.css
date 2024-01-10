@@ -712,7 +712,9 @@
   inset: 0;
 }
 
-
+.collections-list-item:has(> a:hover) .collections-list-item-image {
+  opacity: 0.9;
+}
 
 /* Footer */
 
