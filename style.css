@@ -856,6 +856,10 @@
     height: auto;
   }
 
+  .about-us-title {
+    text-align: center;
+  }
+
   .about-us-image {
     height: 472px;
     width: 100%;
@@ -893,6 +897,7 @@
 
   .features-inner {
     margin-top: 0;
+    padding-bottom: 30px;
   }
 
    .about-us-features-statistic {
