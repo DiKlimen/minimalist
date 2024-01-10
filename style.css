@@ -631,6 +631,7 @@
 .portfolio-gallery {
   padding-top: 50px;
 }
+
 .portfolio-galeery-list {
   display: grid;
   grid-template-columns: minmax(50px, 281px) minmax(50px, 416px) minmax(50px, 218px) minmax(50px, 274px);
@@ -639,9 +640,19 @@
   grid-row-gap: 10px;
 }
 
+.portfolio-galeery-item {
+  overflow: hidden;
+}
+
 .portfolio-galeery-image {
   height: 100%;
   object-fit: cover;
+  transition-duration: 0.5s;
+}
+
+.portfolio-galeery-image:hover {
+  transform: scale(1.07);
+  
 }
 
 .portfolio-area-1 {
@@ -712,12 +723,8 @@
   inset: 0;
 }
 
-/* .collections-list-item:has(> a:hover) .collections-list-item-image {
+.collections-list-item:has(> a:hover) .collections-list-item-image {
   opacity: 0.9;
-} */
-
-.collections-list-item::hover .collections-list-item-image {
-  scale: 1.2;
 }
 
 /* Footer */
