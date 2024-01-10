@@ -590,12 +590,12 @@
 }
 
 .blog-body-item-views {
-  background: url(/icons/visibility.svg) center no-repeat;
+  background: url(./icons/visibility.svg) center no-repeat;
   background-position: left;
 }
 
 .blog-body-item-likes {
-  background: url(/icons/favorite.svg) center no-repeat;
+  background: url(./icons/favorite.svg) center no-repeat;
   background-position: left;
 }
 
