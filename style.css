@@ -260,7 +260,7 @@
   flex-shrink: 0;
   width: 24px;
   height: 24px;
-  background: url('/icons/list-bullet.svg') center/cover no-repeat;
+  background: url('./icons/list-bullet.svg') center/cover no-repeat;
  }
 
  .button {
@@ -368,7 +368,7 @@
  }
 
  .hero {
-  background: url('/images/living-room-interior.jpg') center/cover no-repeat;
+  background: url('./images/living-room-interior.jpg') center/cover no-repeat;
   padding-top: 110px;
   padding-bottom: 210px;
  }
@@ -579,12 +579,12 @@
 }
 
 .blog-body-item-views {
-  background: url(/icons/visibility.svg) center no-repeat;
+  background: url('./icons/visibility.svg') center no-repeat;
   background-position: left;
 }
 
 .blog-body-item-likes {
-  background: url(/icons/favorite.svg) center no-repeat;
+  background: url('./icons/favorite.svg') center no-repeat;
   background-position: left;
 }
 
