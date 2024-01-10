@@ -264,7 +264,7 @@
   flex-shrink: 0;
   width: 24px;
   height: 24px;
-  background: url('/icons/list-bullet.svg') center/cover no-repeat;
+  background: url('./icons/list-bullet.svg') center/cover no-repeat;
  }
 
  .button {
